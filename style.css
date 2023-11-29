@@ -40,6 +40,7 @@
   background-image: linear-gradient(to bottom, #00331c86, #191919f6);
   border-radius: 8px;
   padding: 30px 25px;
+  height: 350px;
 }
 .ft_card {
   text-align: center;
@@ -71,11 +72,13 @@ img.road_img {
   background: #111;
   padding: 37px;
   border-radius: 10px;
-  height: 420px;
+  height: 530px;
   margin: 15px 4px;
   border: 1px solid #038451;
 }
-
+.img_box img {
+  width: 60px;
+}
 .road_card h3,
 .road_card h2 {
   font-family: "Simpsonfont", sans-serif;
@@ -132,5 +135,8 @@ img.road_img {
   }
   .ft_card {
     margin-bottom: 35px;
+  }
+  .road_card {
+    height: 495px;
   }
 }
